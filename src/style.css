@@ -1,0 +1,130 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  padding: 1.5rem;
+  background-color: rgb(129, 94, 94);
+}
+
+.header{
+  display: grid;
+  margin-bottom: 3rem;
+
+}
+
+.netflix-logo{
+  height: 80px;
+  place-self: center;
+}
+.main{
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1.5rem;
+}
+.movie-wrapper{
+  display: grid;
+  width: 250px;
+  gap: 2rem;
+}
+.movie-img{
+  width: 250px;
+  cursor: pointer;
+}
+.movie-item{
+  display: grid;
+  gap: 1rem;
+}
+
+.movie-description{
+  font-weight: 700;
+  color: white;
+}
+
+
+/*second page*/
+
+/* CSS */
+.button-36 {
+  background-image: linear-gradient(92.88deg, #5f1f3a 9.16%, #ad3851 43.89%, #d73f65 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-36:hover {
+  box-shadow: rgba(255, 255, 255, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+  .button-36 {
+    padding: 0 2.6rem;
+  }
+}
+.second-page-header{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  margin-bottom: 4rem;
+  
+}
+
+
+.selected-movie{
+  width: 400px;
+}
+.wrapper-section{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 3rem;
+}
+.movie-title{
+  text-align: center;
+}
+.movie-desc{
+  text-align: center;
+}
+.section-element{
+  display: grid;
+
+}
+.div-wrapper{
+  display: grid;
+  place-content: start;
+  gap: 1.5rem;
+  justify-content: center;
+}
+.div-wrapper2{
+  display: grid;
+  place-content: start;
+  gap: 1rem;
+}
+
+.form{
+  padding: 5px;
+  border: #5f1f3a 3px solid;
+  display: grid;
+  color: white;
+  font-weight: 700;
+  font-size: larger;
+  width: 230px;
+  height: 350px;
+  gap: 0.5rem;
+}

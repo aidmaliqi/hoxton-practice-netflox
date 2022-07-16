@@ -1,0 +1,92 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Avengers EndGame",
+      "src": "/assets/movie1.jpg",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, tempore necessitatibus. Tempore, commodi? Nemo, doloribus.",
+      "comments": [
+        {
+          "movieID": 1,
+          "id": 1,
+          "text": "Lorem ipsum dolor sit, amet consectetur",
+          "user": "user1"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Black Panther",
+      "src": "/assets/movie2.jpg",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, tempore necessitatibus. Tempore, commodi? Nemo, doloribus.",
+      "comments": [
+        {
+          "movieID": 2,
+          "id": 1,
+          "text": "Lorem ipsum dolor sit, amet consectetur",
+          "user": "user2"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Capiten America",
+      "src": "/assets/movie3.jpg",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, tempore necessitatibus. Tempore, commodi? Nemo, doloribus.",
+      "comments": [
+        {
+          "movieID": 3,
+          "id": 1,
+          "text": "Lorem ipsum dolor sit, amet consectetur",
+          "user": "user3"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Thor",
+      "src": "/assets/movie4.jpg",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, tempore necessitatibus. Tempore, commodi? Nemo, doloribus.",
+      "comments": [
+        {
+          "movieID": 4,
+          "id": 1,
+          "text": "Lorem ipsum dolor sit, amet consectetur",
+          "user": "user4"
+        },
+        {
+          "movieID": 4,
+          "id": 2,
+          "text": "Lorem ipsum dolor sit, amet consectetur",
+          "user": "user4"
+        },
+        {
+          "movieID": 4,
+          "id": 3,
+          "text": "Lorem ipsum dolor sit, amet consectetur",
+          "user": "user4"
+        },
+        {
+          "movieID": 4,
+          "id": 4,
+          "text": "Lorem ipsum dolor sit, amet consectetur",
+          "user": "user4"
+        }
+      ]
+    },
+    {
+      "title": "doctor strange",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/640px-Image_created_with_a_mobile_phone.png",
+      "description": "saddasddsa",
+      "comments": [],
+      "id": 5
+    },
+    {
+      "title": "doctor strange",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/640px-Image_created_with_a_mobile_phone.png",
+      "description": "saddasddsa",
+      "comments": [],
+      "id": 6
+    }
+  ]
+}
